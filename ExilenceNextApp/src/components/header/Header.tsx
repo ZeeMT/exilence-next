@@ -54,7 +54,7 @@ const Header = ({
             <Grid container spacing={1} alignItems="center">
               <Grid item>
                 <Typography variant="h6" noWrap className={classes.title}>
-                  Exilence Next
+                  Zee Exilence
                 </Typography>
               </Grid>
               <Grid item>
@@ -82,18 +82,6 @@ const Header = ({
           </Grid>
           <Grid item>
             <Grid container alignItems="center">
-              <Grid item className={clsx(classes.noDrag)}>
-                <a href="https://patreon.com/exilence" onClick={(e) => openLink(e)}>
-                  <Box
-                    display="flex"
-                    alignItems="center"
-                    height={1}
-                    className={classes.patreonWrapper}
-                  >
-                    <img className={classes.patreonLogo} src={PatreonLogo} alt="patreon" />
-                  </Box>
-                </a>
-              </Grid>
               <Grid
                 item
                 className={clsx(
