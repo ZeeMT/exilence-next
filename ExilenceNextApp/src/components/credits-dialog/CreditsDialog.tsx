@@ -9,7 +9,7 @@ const CreditsDialog = ({ open, onClose }: any) => {
   useEffect(() => {
     if (!isFetching) {
       setIsFetching(true);
-      fetch('https://raw.githubusercontent.com/viktorgullmark/exilence-next/master/CREDITS.md')
+      fetch('https://raw.githubusercontent.com/ZeeMT/exilence-next/master/CREDITS.md')
         .then((response) => response.text())
         .then((result) => {
           setChangelog(result);

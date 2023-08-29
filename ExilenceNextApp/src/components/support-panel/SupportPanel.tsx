@@ -88,14 +88,14 @@ const SupportPanel = ({ isOpen = false, setIsOpen, anchorEl = null }: SupportPan
                 )}
                 <div className={classes.separator} />
                 <a
-                  href="https://github.com/viktorgullmark/exilence-next/issues/new?template=feature_request.md"
+                  href="https://github.com/ZeeMT/exilence-next/issues/new?template=feature_request.md"
                   onClick={(e) => handleLinkClick(e)}
                   className={classes.optionLink}
                 >
                   <Typography variant="body2">{t('label.feature_request')}</Typography>
                 </a>
                 <a
-                  href="https://github.com/viktorgullmark/exilence-next/issues/new?template=bug_report.md"
+                  href="https://github.com/ZeeMT/exilence-next/issues/new?template=bug_report.md"
                   onClick={(e) => handleLinkClick(e)}
                   className={classes.optionLink}
                 >

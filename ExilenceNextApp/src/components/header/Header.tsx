@@ -54,7 +54,7 @@ const Header = ({
             <Grid container spacing={1} alignItems="center">
               <Grid item>
                 <Typography variant="h6" noWrap className={classes.title}>
-                  Zee Exilence
+                  Exilence Next
                 </Typography>
               </Grid>
               <Grid item>
